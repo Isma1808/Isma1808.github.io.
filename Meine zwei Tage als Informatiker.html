@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zwei Tage als Informatiker</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(1, 161, 182);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: rgb(186, 245, 255);
+  padding: 20px;
+  height: 200px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(1, 161, 182);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Zwei Tage als Informatiker :)</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <h1>Arbeitszeiten</h1>
+      <h1>Tätigkeiten</h1>
+      <h1>Lehre</h1>
+      <h1>Meine Meinung zum Beruf</h1>
+    </ul>
+  </nav>
+  
+  <article>
+    <img src="website1.jpeg" style="width: 180px; float: right">
+    <img src="pc2.jpeg" style="width: 170px; float: right;">
+    <h1>Arbeitszeiten</h1>
+    <p>Ich musste um 09:00 im Büro sein und hatte um 16:00 Feierabend.</p>
+    <h1>Tätigkeiten</h1>
+    <p>Ich durfte mit meinem Begleiter einen Computer aufbauen und eine eigene Website erstellen.(diese hier)</p>
+    <h1>Lehre</h1>
+    <p>Die Lehre dauert vier Jahre man kann wärhend der Lehre das Berufsmatura machen.</p>
+    <p>1 Lehrjahr:650-</p>
+    <p>2 Lehrjahr:850.-</p>
+    <p>3 Lehrjahr:1100.-</p>
+    <p>4 Lehrjahr:1400.-</p>
+    <h1>Meine Meinung zum Beruf</h1>
+    <p>Ich finde diesen Beruf sehr interessant, cool und ich würde auch für diesen Beruf die vier Jahre lange Lehre machen.
+      Und noch etwas nicht jeder Informatiker arbeitet das gleiche je nach Firma/Betrieb ist es anders. ;)
+    </p>
+  </article>
+</section>
+<footer>
+  <p></p>
+</footer>
+
+</body>
+</html>
+
+
